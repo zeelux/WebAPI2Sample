@@ -40,7 +40,7 @@ namespace WebApi2Sample.Controllers
             var product = Products.FirstOrDefault((p) => p.Id == id);
             if (product == null)
             {
-                return NotFound();
+                return InternalServerError();
             }
             return Ok(product);
         }

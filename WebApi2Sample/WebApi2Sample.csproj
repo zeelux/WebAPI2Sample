@@ -85,10 +85,10 @@
       <DependentUpon>bootstrap.js</DependentUpon>
     </Content>
     <Content Include="Scripts\lib\jquery-2.0.3.min.js" />
-    <Content Include="Scripts\lib\knockout-3.0.0.min.js" />
-    <Content Include="Scripts\lib\knockout-es5.min.js">
-      <DependentUpon>knockout-3.0.0.min.js</DependentUpon>
+    <Content Include="Scripts\lib\knockout-3.0.0.min.js">
+      <DependentUpon>knockout-es5.min.js</DependentUpon>
     </Content>
+    <Content Include="Scripts\lib\knockout-es5.min.js" />
     <Content Include="Scripts\lib\knockout.punches.js">
       <DependentUpon>knockout-3.0.0.min.js</DependentUpon>
     </Content>

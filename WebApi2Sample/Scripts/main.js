@@ -46,8 +46,8 @@ define(function (require) {
         toastr = require('toastr');
 
     require('ko_punches');
-
     ko.punches.interpolationMarkup.enable();
+
     toastr.options.newestOnTop = false;
 
     var productsViewModel = new ProductsViewModel();
